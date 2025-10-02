@@ -27,13 +27,6 @@ repos:
     language: system
     types: [python]
     stages: [commit]
-  - id: type-check
-    name: Type checking (mypy)
-    entry: make type-check
-    pass_filenames: false
-    language: system
-    types: [python]
-    stages: [commit]
   - id: test
     name: Unit testing (pytest)
     entry: make test

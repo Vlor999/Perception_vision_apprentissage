@@ -2,10 +2,10 @@
 
 from unittest.mock import patch
 
-from src import hello_world
+from src import found_corner
 
 
-@patch.object(hello_world, "print")
+@patch.object(found_corner, "print")
 def test_hello_world(print_mock) -> None:
-    hello_world.hello_world()
+    found_corner.hello_world()
     print_mock.assert_called_once_with("Hello World!")
