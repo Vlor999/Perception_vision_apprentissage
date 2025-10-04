@@ -7,7 +7,9 @@ readme = "README.md"
 requires-python = "==3.11.6"
 dependencies = [
     "loguru>=0.7.3",
+    "matplotlib>=3.10.6",
     "opencv-python>=4.12.0.88",
+    "pillow>=11.3.0",
 ]
 
 [dependency-groups]
